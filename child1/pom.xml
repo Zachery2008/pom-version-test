@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.github.zachery2008.example.version</groupId>
+        <artifactId>parent-pom</artifactId>
+        <version>${revision}${changelist}</version>
+    </parent>
+
+    <groupId>com.github.zachery2008.example.version</groupId>
+    <artifactId>child1</artifactId>
+    <version>${child1.api.version}</version>
+</project>
